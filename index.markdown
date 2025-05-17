@@ -10,16 +10,10 @@ title: Home
   }
 
   .center-wrapper {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-
+    min-height: calc(100vh - 60px); /* 헤더 높이만큼 빼기 */
     display: flex;
     justify-content: center;
     align-items: center;
-
     background: black;
     color: white;
   }
