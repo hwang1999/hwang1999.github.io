@@ -7,20 +7,24 @@ title: Home
   html, body {
     height: 100%;
     margin: 0;
+    background: black;
+    color: white;
   }
 
   .center-wrapper {
-    min-height: calc(100vh - 60px); /* 헤더 높이만큼 빼기 */
+    min-height: calc(100vh - 60px);
     display: flex;
     justify-content: center;
     align-items: center;
-    background: black;
-    color: white;
   }
 
   .center-wrapper h1 {
     text-align: center;
     font-size: 3rem;
+  }
+
+  .skip-links {
+    display: none;
   }
 </style>
 
