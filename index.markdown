@@ -6,13 +6,4 @@ layout: default
 title: Home
 ---
 
-<nav>
-  <ul>
-    {% for item in site.data.navigation.main %}
-      <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
-    {% endfor %}
-  </ul>
-</nav>
-
-<h1>Let's Study Together</h1>
-<p>Ask Why?</p>
+<h1 style="text-align: center;">Let's Study Together</h1>
