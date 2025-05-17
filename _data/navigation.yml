@@ -1,0 +1,9 @@
+main:
+  - title: "Home"
+    url: "/"
+  - title: "Intro"
+    url: "/about"
+  - title: "Posts"
+    url: "/posts"
+  - title: "GitHub"
+    url: "https://github.com/hwang1999"
