@@ -10,10 +10,16 @@ title: Home
   }
 
   .center-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
     display: flex;
-    justify-content: center;   /* 세로 중앙 */
-    align-items: center;       /* 가로 중앙 */
-    height: 100%;
+    justify-content: center;
+    align-items: center;
+
     background: black;
     color: white;
   }
