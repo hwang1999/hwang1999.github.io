@@ -4,15 +4,23 @@ title: Home
 ---
 
 <style>
+  html, body {
+    height: 100%;
+    margin: 0;
+  }
+
   .center-wrapper {
     display: flex;
-    justify-content: center;   /* 수직 중앙 */
-    align-items: center;       /* 수평 중앙 */
-    height: 100vh;             /* 전체 화면 높이 */
+    justify-content: center;   /* 세로 중앙 */
+    align-items: center;       /* 가로 중앙 */
+    height: 100%;
+    background: black;
+    color: white;
   }
 
   .center-wrapper h1 {
     text-align: center;
+    font-size: 3rem;
   }
 </style>
 
