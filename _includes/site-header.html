@@ -1,0 +1,24 @@
+<header class="site-header" role="banner">
+  <div class="wrapper">
+    <div class="masthead">
+      <div class="masthead__inner-wrap">
+        <div class="masthead__menu">
+          <nav id="site-nav" class="site-nav">
+            <a class="site-title" rel="author" href="{{ '/' | relative_url }}">
+              {{ site.title }}
+            </a>
+            {% if site.data.navigation.main %}
+              <ul class="site-nav__list">
+              {% for item in site.data.navigation.main %}
+                <li class="site-nav__item">
+                  <a href="{{ item.url | relative_url }}" class="site-nav__link">{{ item.title }}</a>
+                </li>
+              {% endfor %}
+              </ul>
+            {% endif %}
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
