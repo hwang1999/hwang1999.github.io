@@ -31,5 +31,5 @@ title: Home
 </style>
 
 <div class="center-wrapper">
-  <h1>Let's Study Together</h1>
+  <h1>Let's Create Together</h1>
 </div>
