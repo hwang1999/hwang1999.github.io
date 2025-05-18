@@ -1,6 +1,7 @@
 ---
 layout: default
-title: "전체 포스트"
+title: "POSTS"
+"
 permalink: /posts/
 ---
 
